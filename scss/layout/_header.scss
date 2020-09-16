@@ -1,0 +1,22 @@
+header {
+  background-color: $skincolor;
+  width: 100%;
+  text-align: center;
+  height: 21rem;
+  color: $gray;
+  @include breakpoint( tablet ) {
+    height: 29rem;
+  }
+  @include breakpoint( pc ) {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 100%;
+  }
+}
+.site-title {
+  @include breakpoint( pc ) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

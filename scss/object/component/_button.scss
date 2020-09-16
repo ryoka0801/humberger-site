@@ -1,0 +1,30 @@
+.btn {
+	display: block;
+	padding: 1rem 6.2rem 1rem 3.6rem;
+	margin: 3rem auto;
+	background-color: #fff;
+	color: #424242;
+	border-radius: 22px;
+	cursor: pointer;
+	line-height: 1.6;
+  position: relative;
+  width: 5rem;
+  text-decoration: none;  
+}
+
+.btn svg {
+	width: 30px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: auto;
+	transform: translateY(-50%);
+	transition: all 0.3s ease 0s;
+	stroke: #424242;
+	stroke-width: 2px;
+	right: 13px;
+}
+
+.btn:hover svg {
+	stroke: #424242;
+}

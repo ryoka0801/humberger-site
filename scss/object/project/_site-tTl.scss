@@ -1,0 +1,16 @@
+.bg-hum {
+  background-image: url(../image/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  @include breakpoint( pc ) {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
+
+.bg-menu {
+  background-image: url(../image/archive.png);
+  background-color: black;
+  opacity: 0.8;
+}

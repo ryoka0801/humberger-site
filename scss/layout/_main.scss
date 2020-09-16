@@ -1,0 +1,15 @@
+main {
+  width: 100%;
+  @include breakpoint( pc ) {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
+
+.bg-eatin {
+  background-image: url(../image/eatin.png);
+}
+
+.bg-takeout {
+  background-image: url(../image/takeout.png);
+}

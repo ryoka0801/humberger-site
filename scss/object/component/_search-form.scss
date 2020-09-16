@@ -1,0 +1,42 @@
+.search-form {
+	margin-top: 3rem;
+  	@include breakpoint( tablet ) {
+		margin-top: 6rem;
+  	}
+  	@include breakpoint( pc ) {
+			float: right;
+			margin: 0;
+	}
+}
+
+.use_icon {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	height: 3rem;
+	border-radius: 7px;
+	width: 23rem;
+	@include breakpoint ( tablet ) {
+		width: 37rem;
+		height: 5rem;
+		}
+	@include breakpoint ( pc ) {
+		width: 20rem;
+	}
+}
+
+.search-btn {
+	height: 3.6rem;
+	margin-left: 1rem;
+	border-radius: 10px;
+	background-color: #F2EDE9;
+	width: 6rem;
+	@include breakpoint ( tablet ) {
+		width: 13rem;
+		height: 5.7rem;
+	}
+}
