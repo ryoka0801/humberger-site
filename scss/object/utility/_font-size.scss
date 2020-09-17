@@ -12,18 +12,21 @@
 .heading {
   font-size: 4rem;
 }
+
 .c-site-ttl {
   font-size: 3.5rem;
   @include breakpoint ( tablet ) {
     font-size: 4rem;
   }
 }
+
 .c-sub-tTl {
   font-size: 4rem;
   @include breakpoint ( tablet ) {
     font-size: 5rem;
   }
 }
+
 .c-sub-head {
   font-weight: lighter;
   font-size: 2rem;
@@ -31,21 +34,31 @@
     font-size: 2.5rem;
   }
 }
+.menu-title {
+  @include breakpoint( tablet ) {
+    font-size: 3.5rem;
+  }
+}
+
 section p {
   font-size: 1.6rem;
   @include breakpoint( tablet ) {
     font-size: 2rem;
   }
 }
+
 .bg-map h3 {
   font-size: 3rem;
 }
+
 .bg-map p {
   font-size: 1.5rem;
 }
+
 .flex {
   font-size: 3rem;
 }
+
 .copyright {
   font-size: 1.2rem;
 }

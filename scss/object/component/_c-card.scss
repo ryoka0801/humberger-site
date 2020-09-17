@@ -2,16 +2,26 @@
   background: #3C2B1C;
   color: white;
   height: auto;
+  @include breakpoint( tablet ) {
+    display: flex;
+  }
 }
 
 .humberger-photo {
   width: 33.6rem;
   height: 21rem;
+  @include breakpoint( tablet ) {
+    height: auto;
+    object-fit: cover;
+  }
 }
 
 .sub-card {
   background: #3C2B1C;
   height: auto;
+  @include breakpoint( tablet ) {
+    padding: 3rem 0 0 3rem;
+  }
 }
 
 .sub-card-menu {
@@ -21,6 +31,9 @@
 
 .sub-card-title {
   padding: 2rem 0 0 0;
+  @include breakpoint ( tablet ) {
+    padding-bottom: 1rem;
+  }
 }
 
 .sub-card-cont {

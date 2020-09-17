@@ -202,14 +202,36 @@ footer {
   height: auto;
 }
 
+@media (min-width: 641px) {
+  .c-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .humberger-photo {
   width: 33.6rem;
   height: 21rem;
 }
 
+@media (min-width: 641px) {
+  .humberger-photo {
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .sub-card {
   background: #3C2B1C;
   height: auto;
+}
+
+@media (min-width: 641px) {
+  .sub-card {
+    padding: 3rem 0 0 3rem;
+  }
 }
 
 .sub-card-menu {
@@ -219,6 +241,12 @@ footer {
 
 .sub-card-title {
   padding: 2rem 0 0 0;
+}
+
+@media (min-width: 641px) {
+  .sub-card-title {
+    padding-bottom: 1rem;
+  }
 }
 
 .sub-card-cont {
@@ -365,6 +393,12 @@ section p {
   text-decoration: none;
 }
 
+@media (min-width: 641px) {
+  .btn {
+    margin: 4rem;
+  }
+}
+
 .btn svg {
   width: 30px;
   height: auto;
@@ -404,6 +438,8 @@ section p {
 
 .bg-menu {
   background-image: url(../image/archive.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: black;
   opacity: 0.8;
 }
@@ -693,6 +729,12 @@ body {
   }
 }
 
+@media (min-width: 641px) {
+  .menu-title {
+    font-size: 3.5rem;
+  }
+}
+
 section p {
   font-size: 1.6rem;
 }
@@ -790,7 +832,7 @@ section p {
 
 @media (min-width: 641px) {
   .c-sub-head {
-    padding: 2.5rem 0 2.5rem 2rem;
+    padding: 1.8rem 0;
   }
 }
 
