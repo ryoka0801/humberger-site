@@ -207,6 +207,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 2rem;
   }
 }
 
@@ -217,7 +218,8 @@ footer {
 
 @media (min-width: 641px) {
   .humberger-photo {
-    height: auto;
+    height: 43rem;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -391,12 +393,6 @@ section p {
   position: relative;
   width: 5rem;
   text-decoration: none;
-}
-
-@media (min-width: 641px) {
-  .btn {
-    margin: 4rem;
-  }
 }
 
 .btn svg {
@@ -884,15 +880,6 @@ section p {
 
 .sub-info {
   padding: 3rem 0 1.5rem 0;
-}
-
-.unit-box {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
 }
 
 .slide-menu {

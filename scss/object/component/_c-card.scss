@@ -4,6 +4,7 @@
   height: auto;
   @include breakpoint( tablet ) {
     display: flex;
+    margin-bottom: 2rem;
   }
 }
 
@@ -11,7 +12,8 @@
   width: 33.6rem;
   height: 21rem;
   @include breakpoint( tablet ) {
-    height: auto;
+    height: 43rem;
+    width: 100%;
     object-fit: cover;
   }
 }
