@@ -68,3 +68,12 @@ section {
 .sub-info {
   padding: 3rem 0 1.5rem 0;
 }
+
+.archive-menu {
+  @include breakpoint( tablet ) {
+    margin-right: 2rem;
+  }
+  @include breakpoint( pc ) {
+    margin-right: 2rem;
+  }
+}

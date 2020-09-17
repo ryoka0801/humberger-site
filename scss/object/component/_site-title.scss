@@ -13,4 +13,11 @@
   left: 10%;
   color: white;
   font-weight: lighter;
+  @include breakpoint( tablet ) {
+    display: flex;
+    align-items: center;
+  }
+  @include breakpoint( pc ) {
+    display: flex;
+  }
 }
