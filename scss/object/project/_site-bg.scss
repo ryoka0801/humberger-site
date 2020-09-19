@@ -3,10 +3,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  @include breakpoint( pc ) {
-    grid-row: 2/3;
-    grid-column: 1/2;
-  }
 }
 
 .bg-menu {
@@ -15,4 +11,11 @@
   background-repeat: no-repeat;
   background-color: black;
   opacity: 0.8;
+}
+
+.bg-single {
+  background-image: url(../image/single.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
