@@ -485,6 +485,13 @@ section p {
   background-position: right;
 }
 
+.bg-page {
+  background-image: url(../image/shop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 body {
   overflow-x: hidden;
 }
